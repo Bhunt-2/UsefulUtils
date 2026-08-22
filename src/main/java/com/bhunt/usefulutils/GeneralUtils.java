@@ -1,8 +1,8 @@
-package frc.ben.usefulutils;
+package com.bhunt.usefulutils;
 
-public final class Utils {
+public final class GeneralUtils {
 
-    private Utils() {}
+    private GeneralUtils() {}
 
     public static double clamp(double value, double min, double max) {
         return Math.max(min, Math.min(max, value));
